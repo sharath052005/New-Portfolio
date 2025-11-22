@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharath | UI/UX Designer</title>
+</head>
+
+<body>
+    <div class="main-nav">
+    <div class="nav">
+
+    <!-- LOGO (Left) -->
+    
+
+    <!-- NORMAL NAV LINKS (Desktop only) -->
+    <div class="mid links-left">
+        <a href="#pro">PROJECTS</a>
+        <a href="">RESUME</a>
+    </div>
+
+        <img class="logo" src="transparent-Photoroom.png" alt="logo">
+
+    <div class="mid links-right">
+        <a href="#about">ABOUT</a>
+        <a href="#footer">CONTACT</a>
+    </div>
+
+    <!-- HAMBURGER (Right on mobile) -->
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- MOBILE MENU -->
+<div class="mobile-menu">
+    <a href="#pro">PROJECTS</a>
+    <a href="">RESUME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#footer">CONTACT</a>
+</div>
+
+
+</div>
+
+    </div>
+
+    <div class="hero">
+
+        <div class="me">
+            <h1>
+                HEY,
+            </h1>
+            <h1>
+                I'M SHARATH
+            </h1>
+            <div class="ux">
+                <img src="UX Designer.png" alt="ux">
+            </div>
+        </div>
+
+        <div class="sharath">
+            <img src="sharath.jpeg">
+        </div>
+    </div>
+
+    <div id="pro" class="projects">
+
+        <h1>WORK THAT I'M PROUD OF</h1>
+        <div class="demo">
+            <img src="p1.jpg" alt="p1">
+            <div class="info">
+                <p>Health Sync Mobile App</p>
+                <a href="https://www.behance.net/gallery/228186023/HealthSync-Fitness-App-UX-Case-Study" target="_blank"><button>Case Study</button></a>
+            </div>
+        </div>
+        <div class="demo">
+            <img src="p2.jpg" alt="p2">
+            <div class="info">
+                <p>Infosys SpringBoard Website</p>
+                <a href="https://www.behance.net/gallery/228186973/Infosys-Springboard-Redesign-Case-Study" target="_blank"><button>Case Study</button></a>
+            </div>
+        </div>
+        <div class="demo">
+            <img src="p3.jpg" alt="p3">
+            <div class="info">
+                <p>Connexus Mobile App</p>
+                <a href="https://www.behance.net/gallery/232591967/Connexus-Case-Study" target="_blank"><button>Case Study</button></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="about" class="about">
+        <h1>
+            ME, MYSELF
+        </h1>
+        <p>
+            I'm Sharath, a B.Tech student at Anurag University majoring in Computer 
+            Science Engineering, with a deep focus on UI/UX Design. Since childhood, 
+            I’ve been the kind of person who loves fixing and creating things — whether 
+            it was customizing my gadgets, sketching random logos, or redesigning everyday 
+            tools to make them more useful. That love for problem-solving slowly led me to 
+            the world of digital design and technology.
+        </p>
+        <p>   
+            In college, I discovered UX design, and it instantly felt like the perfect 
+            space where creativity, empathy, and tech meet. Now, through my designs, I aim 
+            to build thoughtful, accessible, and meaningful experiences that not only look 
+            good but genuinely help people in their everyday lives.I believe in creating 
+            things that solve real problems and spark real joy.
+        </p>
+    </div>
+    
+    <div id="footer" class="foot">
+
+    <div class="footer">
+        <h1>
+            LET'S WORK
+        </h1>
+        <img src="Together !.png" alt="to">
+    </div>
+
+    <div class="line"></div>
+    <div class="con">
+        <p>sharathsilangari@gmail.com</p>
+        <a href="https://www.linkedin.com/in/sharath-silangari-831068281/" target="_blank"><button>LinkedIn</button></a>
+    </div>
+    </div>
+
+    <script>
+    const hamburger = document.querySelector(".hamburger");
+    const mobileMenu = document.querySelector(".mobile-menu");
+
+    hamburger.addEventListener("click", () => {
+        mobileMenu.classList.toggle("open");
+        hamburger.classList.toggle("active");
+    });
+</script>
+
+
+</body>
+
+</html>
